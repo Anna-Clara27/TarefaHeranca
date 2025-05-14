@@ -44,6 +44,10 @@ public abstract class Conta {
         return saldo;
   }
 
+    public void setCliente(Cliente titular) {
+        this.titular = titular;
+    }
+    
     public void setNumero(String numero) {
         this.numero = numero;
   }
